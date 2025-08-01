@@ -1,3 +1,7 @@
+
+# ls /root
+explorer  fabric-samples  mycc-final  setup_agent.sh
+
 # Clean up
 docker rm -f $(docker ps -a | grep mycc | awk '{print $1}')
 docker rmi -f $(docker images | grep mycc | awk '{print $3}')
