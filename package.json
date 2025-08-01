@@ -1,0 +1,19 @@
+{
+  "name": "my-chaincode",
+  "version": "1.0.0",
+  "description": "My Hyperledger Fabric Node.js Chaincode",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.5",
+    "fabric-shim": "^2.5.5"
+  },
+  "license": "Apache-2.0"
+}
+
